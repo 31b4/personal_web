@@ -1,3 +1,44 @@
 body{
     background-color: #0e1212;
 }
+h1{
+    color: #B80F0A;
+}
+ul#menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+   
+   
+}
+ul#menu li {
+    float: left;
+
+}
+ul#menu li a {
+    padding: 10px;
+    display: block;
+    font-family: Roboto Mono;
+    font-weight: monospace;
+    font: 19px "Roboto Mono", monospace;
+    text-decoration: none;
+    transition: color .5s ease-out;
+    color: whitesmoke;
+}
+
+ul#menu li img {
+    width: 25px;
+}
+ul#menu li :hover{
+    transition: color .5s ease-out;
+    color: #B80F0A;
+}
+div#container{
+    width: 462px;
+    margin-left: 60%;
+    margin-right: 40%;
+}
+.on{
+    color: #DBDBDB ;
+}
