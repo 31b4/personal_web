@@ -1,2 +1,2 @@
 # personal_web
-Test
+https://31b4.netlify.app/
