@@ -3,20 +3,37 @@ body{
 }
 div#introduction ul p{
     color: #808080;
+    font: 19px "Roboto Mono", monospace;
+    text-align: left;
+    margin: 2;
+    font-family: monospace;
     
-    font: 16px "Roboto Mono", monospace;
+}
+div#introduction ul p#darker{
+    color: #585858;
+}
+
+div#introduction ul h1{
+    color: #B80F0A;
     
     text-align: left;
+    font: 64px "Roboto Mono", monospace;
+    margin: 0;
+    font-weight: bold;
+    font-family: monospace;
+   
 }
 div#introduction {
-    width: 100%;
+    width: auto;
+    margin-top: 8%;
+    margin-left: 23%;
 }
 ul#menu{
     list-style: none;
     padding: 0;
     margin: 0;
     float: right;
-   
+    margin-right: 20%;
    
 }
 ul#menu li {
@@ -43,17 +60,20 @@ div#container{
     width: 100%;
     height: 50px;
 }
-.on{
-    color: #DBDBDB ;
-}
-div#introduction ul h1{
-    color: #808080;
-    
-    font: 40px "Roboto Mono", monospace;
-    
-}
+
+
 ul#felsorolas {
     list-style: none;
     margin-right: auto;
     margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+ul#menu li#on :hover{
+    transition: color .5s ease-out;
+    color: #B80F0A;
+}
+div#container ul li#on a{
+    transition: color .5s ease-out;
+    color: #606060 ;
 }
