@@ -82,12 +82,12 @@ div#container a#cim {
     font: 25px "Roboto Mono", monospace;
     text-decoration: none;
     color: #B80F0A;
-    margin-left: 25%;
+    margin-left: 20%;
     padding: 10px;
 }
 div#works{
     height: 700px;
-    margin-left: 20%;
+    margin-left: 25%;
     margin-right: 20%;
     margin-top: 10%;
 }
