@@ -77,3 +77,39 @@ div#container ul li#on a{
     transition: color .5s ease-out;
     color: #606060 ;
 }
+div#container a#cim {
+    display: block;
+    font: 25px "Roboto Mono", monospace;
+    text-decoration: none;
+    color: #B80F0A;
+    margin-left: 25%;
+    padding: 10px;
+}
+div#works{
+    height: 700px;
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+div#works ul#theApp li{
+    width: auto;
+    float: left;
+    font: 19px "Roboto Mono", monospace;
+    color: whitesmoke;
+    text-decoration: none;
+    list-style: none;
+    
+    margin-right: 10px;
+}
+div#works ul#theApp li#name{
+    color: #B80F0A;
+    text-align: left;
+    font: 64px "Roboto Mono", monospace;
+    margin: 0;
+    font-weight: bold;
+    font-family: monospace;
+   
+}
+div#works ul#theApp li#darker{
+    color: #585858;
+}
