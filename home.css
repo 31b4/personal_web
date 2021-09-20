@@ -59,7 +59,7 @@ ul#menu li :hover{
 div#container{
     width: 100%;
     height: 50px;
-}
+}  
 
 
 ul#felsorolas {
@@ -93,19 +93,19 @@ div#works{
 }
 div#works ul#theApp li{
     width: auto;
-    float: left;
+    
     font: 19px "Roboto Mono", monospace;
     color: whitesmoke;
     text-decoration: none;
     list-style: none;
-    
+    margin: 10px;
     margin-right: 10px;
 }
 div#works ul#theApp li#name{
     color: #B80F0A;
     text-align: left;
     font: 64px "Roboto Mono", monospace;
-    margin: 0;
+    
     font-weight: bold;
     font-family: monospace;
    
