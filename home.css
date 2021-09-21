@@ -1,6 +1,5 @@
 body{
     background-color: #0e1212;
-    background-size: cover;
 }
 div#introduction ul p{
     color: #808080;
@@ -26,7 +25,7 @@ div#introduction ul h1{
 }
 div#introduction {
     width: auto;
-    margin-top: 10%;
+    margin-top: 15%;
     margin-left: 25%;
 }
 ul#menu{
@@ -80,6 +79,7 @@ div#container ul li#on a{
 }
 div#container a#cim {
     display: block;
+    position:static;
     font: 25px "Roboto Mono", monospace;
     text-decoration: none;
     color: #B80F0A;
