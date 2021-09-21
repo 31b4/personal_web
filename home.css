@@ -1,5 +1,6 @@
 body{
     background-color: #0e1212;
+    background-size: cover;
 }
 div#introduction ul p{
     color: #808080;
