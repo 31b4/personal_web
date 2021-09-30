@@ -129,3 +129,31 @@ div#contact a{
     text-decoration: none;
     color: whitesmoke;
 }
+.boxes{
+    width: 90%;
+    overflow: hidden;
+    margin: 10% auto;
+    /*background-color: yellow;*/
+    padding: 20px;
+}
+.boxes ul {
+    padding: 0px;
+    margin-left: 20%;
+}
+.boxes ul li{
+    list-style: none;
+    float: left;
+    width: 25%;
+    height: 200px;
+    /*background:red;*/
+    margin: 15px 0px 0px 60px;
+}
+.boxes ul li p{
+    color: #808080;
+    font: 22px "Roboto Mono", monospace;
+}
+.boxes a{
+    margin-left: 20%;
+    color: whitesmoke;
+    font: 64px "Roboto Mono", monospace;
+}
