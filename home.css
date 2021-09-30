@@ -15,7 +15,7 @@ div#introduction ul p#darker{
 }
 
 div#introduction ul h1{
-    color: #B80F0A;
+    color: whitesmoke;
     
     text-align: left;
     font: 64px "Roboto Mono", monospace;
@@ -28,8 +28,10 @@ div#introduction {
     width: auto;
     margin-top: 10%;
     margin-left: 25%;
+
 }
 ul#menu{
+    
     list-style: none;
     padding: 0;
     margin: 0;
@@ -60,6 +62,10 @@ ul#menu li :hover{
 div#container{
     width: 100%;
     height: 50px;
+    position: fixed;
+    padding-top: 5px;
+    top: 0px;
+    background-color: #0e1212;
 }  
 
 
@@ -97,14 +103,14 @@ div#works ul#theApp li{
     width: auto;
     
     font: 19px "Roboto Mono", monospace;
-    color: whitesmoke;
+    color: #808080;
     text-decoration: none;
     list-style: none;
     margin: 10px;
     margin-right: 10px;
 }
 div#works ul#theApp li#name{
-    color: #B80F0A;
+    color: whitesmoke;
     text-align: left;
     font: 64px "Roboto Mono", monospace;
     
@@ -113,21 +119,20 @@ div#works ul#theApp li#name{
    
 }
 div#works ul#theApp li#darker{
-    color: #585858;
+    color: #B80F0A;
 }
 div#contact{
     width: auto;
     margin-top: 10%;
     text-align: center;
-    
-    color: whitesmoke;
     font: 22px "Roboto Mono", monospace;
     text-decoration: none;
+    color: #808080;
 
 }
 div#contact a{
     text-decoration: none;
-    color: whitesmoke;
+    color: #808080;
 }
 .boxes{
     width: 90%;
@@ -144,9 +149,9 @@ div#contact a{
     list-style: none;
     float: left;
     width: 25%;
-    height: 200px;
+    height: 250px;
     /*background:red;*/
-    margin: 15px 0px 0px 60px;
+    margin: 0px 0px 0px 60px;
 }
 .boxes ul li p{
     color: #808080;
@@ -155,5 +160,8 @@ div#contact a{
 .boxes a{
     margin-left: 20%;
     color: whitesmoke;
-    font: 64px "Roboto Mono", monospace;
+    font: 30px "Roboto Mono", monospace;
+}
+.boxes ul li p.cim{
+    color: #B80F0A;
 }
