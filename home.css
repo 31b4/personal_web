@@ -123,7 +123,7 @@ div#works ul#theApp li#darker{
 }
 div#contact{
     width: auto;
-    margin-top: 10%;
+    margin-top: 200px;
     text-align: center;
     font: 22px "Roboto Mono", monospace;
     text-decoration: none;
@@ -132,7 +132,12 @@ div#contact{
 }
 div#contact a{
     text-decoration: none;
+    transition: color .5s ease-out;
     color: #808080;
+}
+div#contact a:hover{
+    transition: color .5s ease-out;
+    color: whitesmoke;
 }
 .boxes{
     width: 90%;
