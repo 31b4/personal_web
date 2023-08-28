@@ -121,6 +121,9 @@ div#works ul#theApp li#name{
 div#works ul#theApp li#darker{
     color: #B80F0A;
 }
+#theApp img{
+    width: 200px;
+}
 div#contact{
     width: auto;
     margin-top: 200px;
