@@ -123,6 +123,7 @@ div#works ul#theApp li#darker{
 }
 #theApp img{
     width: 500px;
+    border-radius: 25px;
 }
 div#contact{
     width: auto;
